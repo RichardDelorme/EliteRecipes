@@ -1,0 +1,84 @@
+/* EliteRecipes — base styles */
+* { box-sizing: border-box; }
+:root {
+  --bg: #0f1320;
+  --panel: #171b2b;
+  --brand: #6ae3ff;
+  --ink: #eaf2ff;
+  --muted: #98a1b2;
+  --accent: #9cff8b;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --radius: 16px;
+}
+html, body { margin: 0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--ink); background: radial-gradient(1200px 600px at 80% -20%, rgba(106,227,255,.12), transparent), var(--bg); }
+a { color: var(--brand); text-decoration: none; }
+.container { width: min(1100px, 92vw); margin: 0 auto; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: rgba(15,19,32,.8); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,.06); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
+.logo { font-weight: 800; letter-spacing: .5px; font-size: 1.15rem; color: white; }
+.nav { display: flex; gap: 18px; align-items: center; }
+.nav a { opacity: .9; }
+.nav a.active { color: var(--accent); }
+.menu-btn { display: none; background: none; border: 1px solid rgba(255,255,255,.2); color: white; border-radius: 10px; padding: 6px 10px; }
+
+/* Hero */
+.hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 24px; align-items: center; padding: 48px 0 16px; }
+.hero-text h1 { font-size: clamp(1.8rem, 3.5vw, 3rem); margin: 0 0 10px; }
+.hero-text p { color: var(--muted); margin: 0 0 18px; }
+.hero-art { height: 260px; border-radius: var(--radius); background: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1500&auto=format&fit=crop') center/cover; box-shadow: var(--shadow); }
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); color: white; cursor: pointer; }
+.btn-primary { background: linear-gradient(180deg, var(--brand), #3db8ff); color: #04121a; border: none; font-weight: 700; }
+.btn-ghost { background: transparent; color: var(--ink); }
+
+/* Planner */
+.planner { padding: 40px 0 10px; }
+.prefs { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 14px 0 8px; }
+.prefs label { background: var(--panel); padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.06); display: flex; align-items: center; gap: 10px; box-shadow: var(--shadow); }
+.actions { display: flex; align-items: center; gap: 10px; margin: 8px 0 0; flex-wrap: wrap; }
+.muted { color: var(--muted); }
+
+/* Plan grid */
+.plan { margin-top: 24px; }
+.plan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.plan-card { background: var(--panel); border: 1px solid rgba(255,255,255,.06); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); }
+.plan-card img { width: 100%; height: 140px; object-fit: cover; display: block; }
+.plan-card .meta { padding: 10px 12px; }
+.plan-card .meta h4 { margin: 0 0 4px; font-size: 1rem; }
+.plan-card .meta p { margin: 0; color: var(--muted); font-size: .92rem; }
+.plan.hidden { display: none; }
+.shopping { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* Showcase / cards */
+.showcase { padding: 40px 0 60px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.card { background: var(--panel); border: 1px solid rgba(255,255,255,.06); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-rows: auto 1fr; }
+.card img { width: 100%; height: 180px; object-fit: cover; }
+.card-body { padding: 14px; }
+.card-body h3 { margin: 0 0 8px; }
+.card .links { display: flex; gap: 10px; }
+
+/* Contact */
+.page-intro { padding: 40px 0 6px; }
+.contact-form { background: var(--panel); padding: 16px; border-radius: 16px; border: 1px solid rgba(255,255,255,.06); box-shadow: var(--shadow); }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.contact-form label { display: grid; gap: 6px; font-weight: 600; }
+input, textarea { background: #0f1320; border: 1px solid rgba(255,255,255,.1); padding: 10px 12px; border-radius: 10px; color: var(--ink); }
+input:focus, textarea:focus { outline: 2px solid #38bdf8; }
+
+/* Footer */
+.site-footer { margin-top: 40px; border-top: 1px solid rgba(255,255,255,.06); }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+.socials { display: flex; gap: 16px; }
+
+/* Responsive */
+@media (max-width: 840px) {
+  .hero { grid-template-columns: 1fr; }
+  .plan-grid { grid-template-columns: 1fr; }
+  .menu-btn { display: inline-flex; }
+  .nav { display: none; }
+  .nav.open { display: flex; position: absolute; top: 56px; right: 4vw; background: var(--panel); padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); flex-direction: column; }
+}
