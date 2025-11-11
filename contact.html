@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — EliteRecipes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">EliteRecipes</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="btn btn-primary active">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Open Menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Contact</h1>
+      <p>Questions, feedback, or collaboration ideas? Drop a message below.</p>
+    </section>
+
+    <form id="contactForm" class="contact-form" novalidate>
+      <div class="grid-2">
+        <label>Full Name
+          <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+        </label>
+        <label>Email
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+        </label>
+      </div>
+      <label>Subject
+        <input type="text" id="subject" name="subject" placeholder="Inquiry about EliteRecipes" required />
+      </label>
+      <label>Message
+        <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+      </label>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Send Message</button>
+        <button class="btn btn-ghost" type="reset">Reset</button>
+      </div>
+      <p id="formFeedback" class="muted" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> EliteRecipes.</p>
+      <div class="socials">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

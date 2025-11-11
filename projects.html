@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — EliteRecipes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">EliteRecipes</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Open Menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Projects</h1>
+      <p>A curated selection of coursework and independent builds. Each card links to code and demos.</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <img src="https://picsum.photos/seed/elite3/640/360" alt="Screenshot placeholder of the Android Calorie Log app" />
+        <div class="card-body">
+          <h3>Calorie Log (Android)</h3>
+          <ul class="bullets">
+            <li>Android Studio Meerkat, Kotlin 2.x, Room/SQLite</li>
+            <li>Compose UI, WorkManager, Glide</li>
+            <li>AGP 8.10.1, SDK 36</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-small" href="https://github.com/your-username/calorie-log" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/seed/elite4/640/360" alt="Screenshot placeholder of the EliteRecipes site" />
+        <div class="card-body">
+          <h3>EliteRecipes.com</h3>
+          <ul class="bullets">
+            <li>Static HTML, CSS Grid/Flexbox</li>
+            <li>JS Meal Planner + Shopping List</li>
+            <li>Deployed on GitHub Pages</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-small" href="https://github.com/your-username/EliteRecipes" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> EliteRecipes.</p>
+      <div class="socials">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
