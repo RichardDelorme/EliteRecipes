@@ -176,7 +176,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 300,
     "servings": 1,
-    "image": "https://images.pexels.com/photos/5938249/pexels-photo-5938249.jpeg",
+    "image": "https://images.pexels.com/photos/2173774/pexels-photo-2173774.jpeg",
     "description": "A thick berry smoothie served in a bowl and topped with crunchy seeds and fresh fruit.",
     "ingredients": [
       { "name": "Frozen mixed berries", "qty": 1, "unit": "cup" },
