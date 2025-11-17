@@ -93,6 +93,20 @@
         </article>
       </div>
     </section>
+	<!-- Recipe details modal -->
+	<div id="recipeModal" class="modal hidden" aria-hidden="true">
+	  <div class="modal-backdrop"></div>
+	  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+		<button type="button" class="modal-close" aria-label="Close recipe details">&times;</button>
+		<img id="modalImage" src="" alt="" class="modal-image" />
+		<h3 id="modalTitle"></h3>
+		<p id="modalDesc" class="modal-desc"></p>
+		<p id="modalMeta" class="modal-meta"></p>
+		<h4>Instructions</h4>
+		<ol id="modalSteps" class="modal-steps"></ol>
+	  </div>
+    </div>
+
   </main>
 
   <footer class="site-footer">

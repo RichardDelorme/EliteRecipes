@@ -87,3 +87,71 @@ input:focus, textarea:focus { outline: 2px solid #38bdf8; }
   .nav { display: none; }
   .nav.open { display: flex; position: absolute; top: 56px; right: 4vw; background: var(--panel); padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); flex-direction: column; }
 }
+
+/* Recipe details modal */
+.modal.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  position: relative;
+  max-width: 640px;
+  max-height: 90vh;
+  margin: 40px auto;
+  padding: 24px;
+  background: #04121a;
+  border-radius: 16px;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  color: #f8fafc;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #e5e7eb;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.modal-desc {
+  margin: 0 0 8px;
+}
+
+.modal-meta {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin-bottom: 12px;
+}
+
+.modal-steps {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.modal-steps li {
+  margin-bottom: 6px;
+}
+
