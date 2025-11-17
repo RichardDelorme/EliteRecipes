@@ -309,7 +309,7 @@
     const saved = loadPlan();
     if (saved && saved.plan && saved.plan.length) {
       await ensureData();
-      currentPlan = saved.plan;
+      currentPlan = saved.plan.map(r => RECIPES_BY_ID.get(r.id) || r);
       renderPlan(currentPlan);
       if (prefsForm) {
         $$('input[name="prefs"]', prefsForm).forEach(
