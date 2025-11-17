@@ -31,7 +31,12 @@ a { color: var(--brand); text-decoration: none; }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); color: white; cursor: pointer; }
-.btn-primary { background: linear-gradient(180deg, var(--brand), #3db8ff); color: #04121a; border: none; font-weight: 700; }
+.btn-primary {
+  background: linear-gradient(180deg, var(--brand), #3db8ff);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+}
 .btn-ghost { background: transparent; color: var(--ink); }
 
 /* Planner */
