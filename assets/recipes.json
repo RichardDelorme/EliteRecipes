@@ -30,7 +30,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 320,
     "servings": 1,
-    "image": "https://images.pexels.com/photos/1510695/pexels-photo-1510695.jpeg",
+    "image": "https://www.pexels.com/photo/delicious-greek-yogurt-with-biscuit-crumb-and-fresh-raspberries-4006347/",
     "description": "Creamy Greek yogurt layered with berries, honey, and crunchy granola for a quick high-protein breakfast.",
     "ingredients": [
       { "name": "Plain Greek yogurt", "qty": 1, "unit": "cup" },
