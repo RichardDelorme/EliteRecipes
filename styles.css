@@ -262,6 +262,13 @@ input:focus, textarea:focus { outline: 2px solid #38bdf8; }
   max-width: 600px;
   line-height: 1.6;
 }
+/* Force center ONLY the Contact page H2 */
+section.section .section-head h2 {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 
 
 
