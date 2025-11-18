@@ -269,6 +269,18 @@ section.section .section-head h2 {
   display: block;
   margin: 0 auto;
 }
+/* Center the Contact page hero heading */
+.center-hero .hero-body {
+  text-align: center !important;
+}
+
+.center-hero .hero-body h1,
+.center-hero .hero-body p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 900px;
+}
 
 
 
