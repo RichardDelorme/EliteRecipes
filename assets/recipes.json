@@ -6,7 +6,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 420,
     "servings": 1,
-    "image": "https://images.pexels.com/photos/5737384/pexels-photo-5737384.jpeg",
+    "image": "https://images.pexels.com/photos/34741999/pexels-photo-34741999.jpeg",
     "description": "Fluffy eggs folded around creamy avocado and sautéed spinach for a rich, low-carb breakfast.",
     "ingredients": [
       { "name": "Eggs", "qty": 3, "unit": "large" },
@@ -53,7 +53,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 280,
     "servings": 1,
-    "image": "https://images.pexels.com/photos/3731474/pexels-photo-3731474.jpeg",
+    "image": "https://images.pexels.com/photos/4397288/pexels-photo-4397288.jpeg",
     "description": "Creamy chia pudding soaked overnight in almond milk, topped with fresh fruit for a grab-and-go breakfast.",
     "ingredients": [
       { "name": "Unsweetened almond milk", "qty": 1, "unit": "cup" },
@@ -76,7 +76,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 390,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/7937657/pexels-photo-7937657.jpeg",
+    "image": "https://images.pexels.com/photos/8055161/pexels-photo-8055161.jpeg",
     "description": "Soft scrambled eggs with tomatoes, spinach, and feta cheese, inspired by Mediterranean flavors.",
     "ingredients": [
       { "name": "Eggs", "qty": 4, "unit": "large" },
@@ -101,7 +101,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 300,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/6546020/pexels-photo-6546020.jpeg",
+    "image": "https://images.pexels.com/photos/23645811/pexels-photo-23645811.jpeg",
     "description": "A savory tofu scramble with colorful veggies that mimics scrambled eggs without dairy or meat.",
     "ingredients": [
       { "name": "Firm tofu, drained", "qty": 8, "unit": "oz" },
@@ -127,7 +127,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 330,
     "servings": 1,
-    "image": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg",
+    "image": "https://images.pexels.com/photos/4725744/pexels-photo-4725744.jpeg",
     "description": "Warm rolled oats topped with sliced banana and cinnamon for a cozy, fiber-rich breakfast.",
     "ingredients": [
       { "name": "Rolled oats", "qty": 0.5, "unit": "cup" },
@@ -151,7 +151,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 360,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/4109994/pexels-photo-4109994.jpeg",
+    "image": "https://images.pexels.com/photos/4048667/pexels-photo-4048667.jpeg",
     "description": "Mini baked egg muffins loaded with veggies, perfect for meal prep and grab-and-go breakfasts.",
     "ingredients": [
       { "name": "Eggs", "qty": 6, "unit": "large" },
@@ -200,7 +200,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 390,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+    "image": "https://images.pexels.com/photos/7071220/pexels-photo-7071220.jpeg",
     "description": "Fluffy pancakes made with oats, eggs, and yogurt for a protein-packed morning treat.",
     "ingredients": [
       { "name": "Rolled oats", "qty": 0.75, "unit": "cup" },
@@ -225,7 +225,7 @@
     "mealTypes": ["Breakfast"],
     "calories": 410,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg",
+    "image": "https://images.pexels.com/photos/2067470/pexels-photo-2067470.jpeg",
     "description": "Eggs poached in a spiced tomato and pepper sauce, served with crusty bread for dipping.",
     "ingredients": [
       { "name": "Olive oil", "qty": 1, "unit": "tbsp" },
@@ -280,7 +280,7 @@
     "mealTypes": ["Lunch"],
     "calories": 450,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg",
+    "image": "https://images.pexels.com/photos/2741448/pexels-photo-2741448.jpeg",
     "description": "A hearty bowl of quinoa with cucumber, tomato, olives, and feta for a classic Greek flavor profile.",
     "ingredients": [
       { "name": "Cooked quinoa", "qty": 2, "unit": "cup" },
@@ -307,7 +307,7 @@
     "mealTypes": ["Lunch"],
     "calories": 380,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+    "image": "https://images.pexels.com/photos/20443725/pexels-photo-20443725.jpeg",
     "description": "A comforting pot of lentils simmered with carrots, celery, and tomatoes for a filling vegan lunch.",
     "ingredients": [
       { "name": "Brown or green lentils, rinsed", "qty": 1, "unit": "cup" },
@@ -335,7 +335,7 @@
     "mealTypes": ["Lunch"],
     "calories": 360,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/4109132/pexels-photo-4109132.jpeg",
+    "image": "https://images.pexels.com/photos/29535634/pexels-photo-29535634.jpeg",
     "description": "Seasoned ground turkey served in crisp lettuce leaves for a light, protein-rich lunch.",
     "ingredients": [
       { "name": "Ground turkey", "qty": 8, "unit": "oz" },
@@ -463,7 +463,7 @@
     "mealTypes": ["Lunch"],
     "calories": 450,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/3731472/pexels-photo-3731472.jpeg",
+    "image": "https://images.pexels.com/photos/6740849/pexels-photo-6740849.jpeg",
     "description": "Pan-seared halloumi cheese served over a bed of grains and veggies with a lemony dressing.",
     "ingredients": [
       { "name": "Cooked couscous or farro", "qty": 2, "unit": "cup" },
@@ -488,7 +488,7 @@
     "mealTypes": ["Lunch"],
     "calories": 480,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/4958645/pexels-photo-4958645.jpeg",
+    "image": "https://images.pexels.com/photos/16123121/pexels-photo-16123121.jpeg",
     "description": "A colorful burrito-style bowl with black beans, rice, corn, salsa, and avocado.",
     "ingredients": [
       { "name": "Cooked white or brown rice", "qty": 2, "unit": "cup" },
@@ -514,7 +514,7 @@
     "mealTypes": ["Dinner"],
     "calories": 520,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/3296273/pexels-photo-3296273.jpeg",
+    "image": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
     "description": "Simply grilled salmon fillets served over a bed of garlicky sautéed greens.",
     "ingredients": [
       { "name": "Salmon fillets", "qty": 2, "unit": "6-oz" },
@@ -539,7 +539,7 @@
     "mealTypes": ["Dinner"],
     "calories": 430,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg",
+    "image": "https://images.pexels.com/photos/28674710/pexels-photo-28674710.jpeg",
     "description": "A creamy coconut lentil curry with spinach, perfect served over rice or on its own.",
     "ingredients": [
       { "name": "Red lentils, rinsed", "qty": 1, "unit": "cup" },
@@ -565,7 +565,7 @@
     "mealTypes": ["Dinner"],
     "calories": 540,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    "image": "https://images.pexels.com/photos/4828209/pexels-photo-4828209.jpeg",
     "description": "Seasoned chicken strips with peppers and onions over rice, inspired by sizzling fajitas.",
     "ingredients": [
       { "name": "Chicken breast, sliced", "qty": 12, "unit": "oz" },
@@ -614,7 +614,7 @@
     "mealTypes": ["Dinner"],
     "calories": 480,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/7245468/pexels-photo-7245468.jpeg",
+    "image": "https://images.pexels.com/photos/14343072/pexels-photo-14343072.jpeg",
     "description": "Baked turkey meatballs served on a bed of garlicky zucchini noodles with marinara sauce.",
     "ingredients": [
       { "name": "Ground turkey", "qty": 1, "unit": "lb" },
@@ -640,7 +640,7 @@
     "mealTypes": ["Dinner"],
     "calories": 390,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/3296272/pexels-photo-3296272.jpeg",
+    "image": "https://images.pexels.com/photos/4929720/pexels-photo-4929720.jpeg",
     "description": "Tender cod fillets baked with lemon, garlic, and fresh herbs for a light dinner.",
     "ingredients": [
       { "name": "Cod fillets", "qty": 2, "unit": "6-oz" },
@@ -689,7 +689,7 @@
     "mealTypes": ["Dinner"],
     "calories": 520,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+    "image": "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg",
     "description": "Pasta tossed with peas, carrots, and a light Parmesan cream sauce.",
     "ingredients": [
       { "name": "Pasta (penne or fusilli)", "qty": 8, "unit": "oz" },
@@ -714,7 +714,7 @@
     "mealTypes": ["Dinner"],
     "calories": 560,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/4106483/pexels-photo-4106483.jpeg",
+    "image": "https://images.pexels.com/photos/6210747/pexels-photo-6210747.jpeg",
     "description": "Chicken thighs baked on a single tray with potatoes and carrots, flavored with rosemary.",
     "ingredients": [
       { "name": "Bone-in chicken thighs", "qty": 6, "unit": "" },
@@ -739,7 +739,7 @@
     "mealTypes": ["Dinner"],
     "calories": 380,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/4144234/pexels-photo-4144234.jpeg",
+    "image": "https://images.pexels.com/photos/32655065/pexels-photo-32655065.jpeg",
     "description": "A low-carb fried rice made with cauliflower, peas, carrots, and scrambled egg.",
     "ingredients": [
       { "name": "Cauliflower rice", "qty": 3, "unit": "cup" },
@@ -788,7 +788,7 @@
     "mealTypes": ["Dinner"],
     "calories": 480,
     "servings": 3,
-    "image": "https://images.pexels.com/photos/3577430/pexels-photo-3577430.jpeg",
+    "image": "https://images.pexels.com/photos/6462179/pexels-photo-6462179.jpeg",
     "description": "Fluffy couscous tossed with roasted zucchini, eggplant, and peppers in a simple olive oil dressing.",
     "ingredients": [
       { "name": "Couscous", "qty": 1, "unit": "cup" },
@@ -813,7 +813,7 @@
     "mealTypes": ["Dinner"],
     "calories": 430,
     "servings": 2,
-    "image": "https://images.pexels.com/photos/3296271/pexels-photo-3296271.jpeg",
+    "image": "https://images.pexels.com/photos/132263/pexels-photo-132263.jpeg",
     "description": "Juicy shrimp sautéed with garlic, lemon, and herbs, served with a side of veggies or salad.",
     "ingredients": [
       { "name": "Raw shrimp, peeled and deveined", "qty": 12, "unit": "oz" },
