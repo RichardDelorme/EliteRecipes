@@ -20,34 +20,54 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="page-intro">
+  <main class="page">
+  <section class="hero hero-sub">
+    <div class="hero-body">
       <h1>Contact</h1>
-      <p>Questions, feedback, or collaboration ideas? Drop a message below.</p>
-    </section>
+      <p>Have questions about EliteRecipes, my Android app, or my web dev work? Send me a message below.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Get in touch</h2>
+      <p>Use this form to contact me about projects, feedback, or collaboration opportunities.</p>
+    </div>
 
     <form id="contactForm" class="contact-form" novalidate>
-      <div class="grid-2">
-        <label>Full Name
-          <input type="text" id="name" name="name" placeholder="Jane Doe" required />
-        </label>
-        <label>Email
-          <input type="email" id="email" name="email" placeholder="jane@example.com" required />
-        </label>
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="name">Name<span class="required">*</span></label>
+          <input type="text" id="name" name="name" required />
+          <small id="nameError" class="error-msg"></small>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email<span class="required">*</span></label>
+          <input type="email" id="email" name="email" required />
+          <small id="emailError" class="error-msg"></small>
+        </div>
       </div>
-      <label>Subject
-        <input type="text" id="subject" name="subject" placeholder="Inquiry about EliteRecipes" required />
-      </label>
-      <label>Message
-        <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
-      </label>
-      <div class="actions">
-        <button class="btn btn-primary" type="submit">Send Message</button>
-        <button class="btn btn-ghost" type="reset">Reset</button>
+
+      <div class="form-field">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" />
       </div>
-      <p id="formFeedback" class="muted" aria-live="polite"></p>
+
+      <div class="form-field">
+        <label for="message">Message<span class="required">*</span></label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <small id="messageError" class="error-msg"></small>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-note">This is a demo form for my Capstone project. Messages are not actually emailed.</p>
+      </div>
     </form>
-  </main>
+   </section>
+   </main>
+
 
   <footer class="site-footer">
     <div class="container footer-inner">

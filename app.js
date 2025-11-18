@@ -22,6 +22,8 @@
   const generateBtn = $("#generateBtn");
   const clearBtn = $("#clearBtn");
   const shoppingBtn = $("#shoppingBtn");
+  const contactForm = document.getElementById("contactForm");
+
 
   // Limit to 3 choices
   function enforceLimit() {
@@ -303,6 +305,70 @@
       setTimeout(() => downloadCSV(list), 250);
     });
   }
+    // Contact form validation
+  if (contactForm) {
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const nameInput = document.getElementById("name");
+      const emailInput = document.getElementById("email");
+      const subjectInput = document.getElementById("subject");
+      const messageInput = document.getElementById("message");
+
+      const nameError = document.getElementById("nameError");
+      const emailError = document.getElementById("emailError");
+      const messageError = document.getElementById("messageError");
+
+      // Clear old errors
+      [nameError, emailError, messageError].forEach((el) => {
+        if (el) el.textContent = "";
+      });
+
+      let valid = true;
+
+      // Name: required, at least 2 characters
+      if (!nameInput.value.trim()) {
+        nameError.textContent = "Please enter your name.";
+        valid = false;
+      } else if (nameInput.value.trim().length < 2) {
+        nameError.textContent = "Name must be at least 2 characters.";
+        valid = false;
+      }
+
+      // Email: basic format check
+      const emailVal = emailInput.value.trim();
+      const emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+      if (!emailVal) {
+        emailError.textContent = "Please enter your email address.";
+        valid = false;
+      } else if (!emailPattern.test(emailVal)) {
+        emailError.textContent = "Please enter a valid email address.";
+        valid = false;
+      }
+
+      // Message: required, at least 10 characters
+      const msg = messageInput.value.trim();
+      if (!msg) {
+        messageError.textContent = "Please enter a message.";
+        valid = false;
+      } else if (msg.length < 10) {
+        messageError.textContent =
+          "Message should be at least 10 characters long.";
+        valid = false;
+      }
+
+      if (!valid) {
+        return;
+      }
+
+      // Demo behavior: pretend to send
+      alert(
+        "Thank you for your message! This demo contact form does not actually send email, but it shows that validation works."
+      );
+      contactForm.reset();
+    });
+  }
+
 
   // Load saved plan if exists
   (async function () {
