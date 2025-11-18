@@ -245,6 +245,24 @@ input:focus, textarea:focus { outline: 2px solid #38bdf8; }
   line-height: 1.5;
   color: #cbd5e1;
 }
+/* FINAL OVERRIDE – Center Contact Page Headings */
+.page .section .section-head {
+  width: 100%;
+  text-align: center !important;
+}
+
+.page .section .section-head h2,
+.page .section .section-head p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.page .section .section-head p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
 
 
 
