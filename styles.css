@@ -228,15 +228,24 @@ input:focus, textarea:focus { outline: 2px solid #38bdf8; }
 .section {
   padding: 2rem 1.25rem;
 }
-
+/* Center the contact page header + description */
 .section-head {
-  padding-left: 0.25rem;
-  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;  /* adds a bit of horizontal breathing room */
 }
 
-.section-head h2,
-.section-head p {
-  margin-left: 0; /* ensure default alignment */
+.section-head h2 {
+  margin-bottom: 0.5rem;
 }
+
+.section-head p {
+  max-width: 600px;
+  margin: 0.25rem auto 0; /* centers paragraph and limits width */
+  line-height: 1.5;
+  color: #cbd5e1;
+}
+
+
 
 
