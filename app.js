@@ -106,7 +106,7 @@
           <img src="${r.image}" alt="Dish: ${r.name}">
           <div class="meta">
             <h4>Day ${d + 1} — ${MEALS[m]}</h4>
-            <p>${r.name} • ${r.calories} kcal</p>
+            <p>${r.name} • ${r.calories} cal</p>
           </div>`;
         planGrid.appendChild(card);
       }
@@ -220,7 +220,7 @@
     const servings = recipe.servings
       ? `${recipe.servings} serving${recipe.servings > 1 ? "s" : ""}`
       : "Serves 1–2";
-    modalMeta.textContent = `${recipe.calories} kcal • ${servings}`;
+    modalMeta.textContent = `${recipe.calories} cal • ${servings}`;
     modalSteps.innerHTML = "";
     (recipe.steps || []).forEach((step) => {
       const li = document.createElement("li");
